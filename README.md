@@ -13,6 +13,7 @@ Parameters:
 
 - `samplesheet`: CSV with columns `sample` and `file`, with each being an aligned BAM
 - `gtf`: A single GTF file
+- `out_dir`: Output directory
 
 Dependencies:
 

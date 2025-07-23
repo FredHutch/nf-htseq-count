@@ -4,6 +4,7 @@
 nextflow.enable.dsl=2
 
 process htseq_count {
+    publishDir "${params.out_dir}", mode: 'copy', overwrite: true
     input:
     tuple val(sample), path(bam), val(strand)
     path gtf
