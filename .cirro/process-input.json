@@ -1,0 +1,4 @@
+{
+  "out_dir": "$.dataset.dataPath",
+  "gtf": "$.dataset.params.gtf"
+}

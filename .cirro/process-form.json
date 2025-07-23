@@ -1,0 +1,19 @@
+{
+  "form": {
+    "type": "object",
+    "properties": {
+      "gtf": {
+        "title": "Reference GTF",
+        "description": "This must match the reference genomes used to generate the BAM files",
+        "type": "string",
+        "multiple": false,
+        "pathType": "reference",
+        "file": "**/genome_gtf/**/genome.gtf"
+      }
+    },
+    "required": [
+      "gtf"
+    ]
+  },
+  "ui": {}
+}
